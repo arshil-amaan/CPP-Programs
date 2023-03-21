@@ -1,2 +1,2 @@
-# java-classwork
-Java Classwork MCA KNIT, Sultanpur
+# JAVA-OOPS-Lab
+Java Labwork MCA KNIT, Sultanpur
