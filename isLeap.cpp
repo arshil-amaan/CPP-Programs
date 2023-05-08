@@ -15,8 +15,8 @@ void isLeap(int year)
 }
 int main()
 {
-	int year;
-	//Input Year from user
+    int year;
+    //Input Year from user
     cin>>year;
     //calling isLeap()
     isLeap(year);
