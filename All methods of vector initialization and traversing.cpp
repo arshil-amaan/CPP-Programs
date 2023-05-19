@@ -31,8 +31,8 @@ int main() {
  
 	// vector initialization method 6
 	// vector to vector
-	vector<int> vect{26,27,28,29,30};
-	vector<int> v6(vect.begin(),vect.end());
+	vector<int> tempvect{26,27,28,29,30};
+	vector<int> v6(tempvect.begin(),tempvect.end());
  
 	// vector initialization method 7
 	// vect(size)
@@ -43,7 +43,7 @@ int main() {
  
 	vector<int> v8{36,37,38,39,40};
  
- 
+
 	/**************************************************************************/
  
 	// printing all vectors
