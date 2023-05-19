@@ -56,9 +56,7 @@ int main() {
 	// vect.at(index) index out of bound check and throws warning
 	    cout<<v2.at(i)<<" ";
  
-	cout<<"\n";
- 
-	cout<<"vector v3 (Only displaying manipulated)\n";
+	cout<<"\nvector v3 (Only displaying manipulated without actually changing real values)\n";
 	for(auto i : v3)
 	// output can be manipulated just like array, but original values are unchanged
 	    cout<<i*2<<" ";
