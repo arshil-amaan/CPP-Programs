@@ -71,9 +71,7 @@ int main() {
 	for(auto i : v5)
 	    cout<<i<<" ";
  
-	cout<<"\n";
- 
-	cout<<"vector v6\n";
+	cout<<"\nvector v6\n";
 	for(auto i : v6)
 	    cout<<i<<" ";
  
