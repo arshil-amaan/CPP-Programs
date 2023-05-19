@@ -43,7 +43,6 @@ int main() {
  
 	vector<int> v8{36,37,38,39,40};
  
-
 	/**************************************************************************/
  
 	// printing all vectors
@@ -52,9 +51,7 @@ int main() {
 	for(int i=0;i<v1.size();i++)
 	    cout<<v1[i]<<" ";
  
-	cout<<"\n";
- 
-	cout<<"vector v2\n";
+	cout<<"\nvector v2\n";
 	for(int i=0;i<v2.size();i++)
 	// vect.at(index) index out of bound check and throws warning
 	    cout<<v2.at(i)<<" ";
