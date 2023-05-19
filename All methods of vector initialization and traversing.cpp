@@ -83,9 +83,7 @@ int main() {
 	    cout<<i<<" ";
 	}
  
-	cout<<"\n";
- 
-	cout<<"vector v7\n";
+	cout<<"\nvector v7\n";
 	for(auto i : v7)
 	    cout<<i<<" ";
  
