@@ -67,9 +67,7 @@ int main() {
 	for(auto it=v2.begin();it!=v2.end();it++)
 	    cout<<*it<<" ";
  
-	cout<<"\n";
- 
-	cout<<"vector v5\n";
+	cout<<"\nvector v5\n";
 	for(auto i : v5)
 	    cout<<i<<" ";
  
