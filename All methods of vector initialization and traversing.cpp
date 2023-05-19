@@ -87,9 +87,7 @@ int main() {
 	for(auto i : v7)
 	    cout<<i<<" ";
  
-	cout<<"\n";
- 
-	cout<<"vector v8\n";
+	cout<<"\nvector v8\n";
 	// reverse vector print using vect.rbegin() (address of last element)
 	// vect.rend() (address of before first element)
 	// these are special functions because "it++"  will decrease address
