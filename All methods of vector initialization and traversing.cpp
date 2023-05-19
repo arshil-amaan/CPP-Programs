@@ -61,9 +61,7 @@ int main() {
 	// output can be manipulated just like array, but original values are unchanged
 	    cout<<i*2<<" ";
  
-	cout<<"\n";
- 
-	cout<<"vector v4\n";
+	cout<<"\nvector v4\n";
 	// using iterator
 	// 'auto' is used in place of vector<int>::iterator
 	for(auto it=v2.begin();it!=v2.end();it++)
