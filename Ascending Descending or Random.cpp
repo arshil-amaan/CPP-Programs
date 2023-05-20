@@ -23,13 +23,13 @@ int main(){
 	for(int i=0;i<n;i++){
 		arr[i]=0;
 		cin>>arr[i];
-    }
+	}
 	
     if(ascCheck(arr,n))
-    cout<<"Ascending";
+    	cout<<"Ascending";
     else if(dscCheck(arr,n))
-    cout<<"Descending";
+    	cout<<"Descending";
     else
-    cout<<"Neither Ascending nor Descending";
+    	cout<<"Neither Ascending nor Descending";
 	return 0;
 }
