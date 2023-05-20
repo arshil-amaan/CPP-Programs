@@ -3,8 +3,8 @@
 using namespace std;
  
 int main() {
-    int A,C;
-    float B;
+	int A,C;
+	float B;
 	cout<<"Enter A\n";
 	cin>>A;
 	cout<<"\nEnter B\n";
