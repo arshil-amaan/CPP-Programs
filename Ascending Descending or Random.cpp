@@ -2,13 +2,12 @@
 using namespace std;
 //Returns true if Array Elements are Ascending
 bool ascCheck(int arr[],int n){
-    for(int i=1;i<n-1;i++){
-         if(arr[i-1]>=arr[i]){
+    for(int i=1;i<n-1;i++)
+        if(arr[i-1]>=arr[i])
             return false;
-         }
-    }
     return true;
 }
+
 //Returns true if Array Elements are Descending
 bool dscCheck(int arr[],int n){
     for(int i=1;i<n-1;i++){
