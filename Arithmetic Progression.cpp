@@ -17,8 +17,8 @@ int main() {
 	//checking if B is integer
 	int temp=B/1;
 	if(B==temp)
-	cout<<"\n"<<A<<" ("<<B<<") "<<C<<" are in AP"<<endl;
+		cout<<"\n"<<A<<" ("<<B<<") "<<C<<" are in AP"<<endl;
 	else
-	cout<<"\nNo Integer Exists such that A B C are AP"<<endl;
+		cout<<"\nNo Integer Exists such that A B C are AP"<<endl;
 	return 0;
 }
