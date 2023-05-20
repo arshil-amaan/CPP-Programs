@@ -7,14 +7,12 @@ int main() {
 	cin>>binary;
 	temp=binary;
 	temp2=binary;
-	while(temp)
-	{
+	while(temp) {
 		temp=temp/10;
 		len++;
 	}
  
-	for(int i=0;i<=len;i++)
-	{
+	for(int i=0;i<=len;i++) {
 		ld=temp2%10;
 		temp2=temp2/10;
 		decimal=decimal+pow(2,i)*ld;
