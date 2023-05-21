@@ -20,7 +20,7 @@ int main() {
   }
  
   cout<<"\n";
- 
+ //counting zeros in each col
   for(int j=0;j<n;j++) {
     zerincol=0;
     for(int i=0;i<n;i++) {
@@ -28,7 +28,8 @@ int main() {
       zerincol++;
     }
     cout<<"zeros in col "<<j<<" - "<<zerincol<<"\n";
-    if(zerincol>maxzer) {
+    // storing numbr of zeros if more than previous
+   if(zerincol>maxzer) {
       maxzer=zerincol;
       finans=j;
     }
