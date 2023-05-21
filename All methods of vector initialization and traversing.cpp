@@ -77,8 +77,7 @@ int main() {
  
 	cout<<"\nvector v6 (After change using reference operator)\n";
 	// using reference operator actual vector elements can be updated
-	for(auto &i : v6)
-	{
+	for(auto &i : v6) {
 	    i=7;
 	    cout<<i<<" ";
 	}
