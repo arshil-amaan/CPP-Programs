@@ -13,7 +13,6 @@ int main()
       cin>>arr[i][j];
     }
  
- 
   //print arr
   for(int i=0;i<n;i++)
   {  
