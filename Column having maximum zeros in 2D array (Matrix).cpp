@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
  
-int main() 
-{
+int main() {
   int n,maxzer=0,zerincol=0,finans=0;
   cin>>n;
   int arr[n][n];
