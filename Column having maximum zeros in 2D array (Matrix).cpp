@@ -12,10 +12,8 @@ int main() {
     }
  
   //print arr
-  for(int i=0;i<n;i++)
-  {  
-    for(int j=0;j<n;j++)
-    {
+  for(int i=0;i<n;i++) {
+    for(int j=0;j<n;j++) {
       cout<<arr[i][j]<<"\t";
     }
     cout<<"\n";
@@ -23,17 +21,14 @@ int main() {
  
   cout<<"\n";
  
-  for(int j=0;j<n;j++)
-  {
+  for(int j=0;j<n;j++) {
     zerincol=0;
-    for(int i=0;i<n;i++)
-    {
+    for(int i=0;i<n;i++) {
       if(arr[i][j]==0)
       zerincol++;
     }
     cout<<"zeros in col "<<j<<" - "<<zerincol<<"\n";
-    if(zerincol>maxzer)
-    {  
+    if(zerincol>maxzer) {
       maxzer=zerincol;
       finans=j;
     }
