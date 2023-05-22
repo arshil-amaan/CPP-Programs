@@ -18,7 +18,7 @@ int main() {
     int index = name.find(findIt);
     while(index!=string::npos)
     {
-        //programmers method
+        //programmers method (notice pre increment)
         //cout<<"At index "<<index<<endl;
         //index = name.find(findIt,index+1);
  
