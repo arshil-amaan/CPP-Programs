@@ -2,8 +2,8 @@
 using namespace std;
 //fun() returns local static variable
 int &fun() {
-    //non static variables don't exist once function call is over
-    //hence never return reference, a non static local variable
+	//non static variables don't exist once function call is over
+	//hence never return reference, a non static local variable
 	static int x=10;
 	return x;
 }
