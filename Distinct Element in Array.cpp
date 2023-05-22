@@ -26,7 +26,7 @@ int main() {
 	    }
 	    // cout<<"count = "<<count<<endl;
 	}
-	temp=temp-count;
+	temp-=count;
 	cout<<"Distinct Elements Are "<<temp;
 	return 0;
 }
