@@ -13,15 +13,12 @@ int main() {
 	
 	max=arr[0];
 	cout<<"Entered Array is"<<endl;
-	for (int i=0;i<n;i++) {
-	    cout<<arr[i]<<" ";
-	}
+	for (int i=0;i<n;i++)
+		cout<<arr[i]<<" ";
 	cout<<endl;
 	for(int i=1;i<n;i++)
-	{
-	    if(max<arr[i])
-	        max=arr[i];
-	}
+		if(max<arr[i])
+			max=arr[i];
 	cout<<"Maximum of Entered Array is "<<max;
 	return 0;
 }
