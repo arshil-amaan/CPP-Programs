@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
- 
 int main() {
 	//pair has strictly two things in it 
 	pair<int, string> p1(100,"Arshil");
