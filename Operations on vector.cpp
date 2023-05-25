@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 // #include <vector>
 using namespace std;
- 
-int main()
-{
+int main() {
 	// Create an empty vector
 	vector<int> vect1{1,2,3,4,5,6,7,8,9};
     cout<<"vect1 is :\n";
