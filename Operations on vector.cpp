@@ -4,27 +4,27 @@ using namespace std;
 int main() {
 	// Create an empty vector
 	vector<int> vect1{1,2,3,4,5,6,7,8,9};
-    cout<<"vect1 is :\n";
+	cout<<"vect1 is :\n";
 	for (auto i : vect1)
 		cout<<i<<" ";
  
 	cout<<"\nvect1.push_back() inserts element at end\n";
 	vect1.push_back(42);
 	for(auto i : vect1)
-	    cout<<i<<" ";
+		cout<<i<<" ";
  
 	cout<<"\nvect1.pop_back() removes last element\n";
 	vect1.pop_back();
 	for(auto i : vect1)
-	    cout<<i<<" ";
+		cout<<i<<" ";
  
 	cout<<"\nvect1.front() gives first element\n";
 	cout<<vect1.front();
- 
+
 	cout<<"\nvect1.back() gives last element\n";
 	//front() and back() return references hence can be used on left
 	cout<<vect1.back()<<"\n";
- 
+
 	cout<<"vect1.insert(where,what) inserts element at provided place\n";
 	// begin() and end() returns iterator hence can be used on left only using *
 	int m =25;
@@ -33,8 +33,8 @@ int main() {
 		cout<<i<<" ";
  
 	cout<<"\nvect1.insert(vect.begin()+index,what) will insert at index location\n";
-    vect1.insert(vect1.begin()+3,45);
-    for(auto i : vect1)
+	vect1.insert(vect1.begin()+3,45);
+	for(auto i : vect1)
         cout<<i<<" ";
  
     cout<<"\nvect1.insert(where + index,how many,what) will insert at index location\n";
