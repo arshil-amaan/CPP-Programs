@@ -3,15 +3,13 @@
 using namespace std;
 //prime factors
 // Prime checking function
-bool is_prime(int a)
-{
-    for(int i=2;i<a;i++)
-    {
-        if(a%i==0)
-            return false;
-    }
-    return true;
+bool is_prime(int a) {
+	for(int i=2;i<a;i++)
+		if(a%i==0)
+			return false;
+	return true;
 }
+
 int main() {
     int num;
     cin>>num;
