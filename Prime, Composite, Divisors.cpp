@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
- 
+
 bool is_prime(int a) {
     for(int i=2;i<a;i++) {
-    	//check if divisible by all numbers
+        //check if divisible by all numbers
         if(a%i==0) {
             // cout<<i<<"\n";
             cout<<a<<" is not prime \n";
