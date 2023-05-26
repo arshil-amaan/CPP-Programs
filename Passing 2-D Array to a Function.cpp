@@ -29,9 +29,8 @@ int main() {
 	for(int i=0; i<row;i++)
 		for(int j=0; j<col;j++)
 			cin>>arr[i][j];
- 
- 
-  show (arr, row, col);
-  print (a, 3, 4);
-  return 0;
+	
+	show (arr, row, col);
+	print (a, 3, 4);
+	return 0;
 }
