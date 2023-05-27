@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-void reverseWords(string s)
-{
+void reverseWords(string s) {
  
   string revstr="",temp="";
   for(int i=0;i<=s.length();i++)
