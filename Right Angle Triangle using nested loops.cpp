@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 //Right Angle Triangle using nested loops
-int main()
-{
+int main() {
     int s;
     cin>>s;
     //for rows
