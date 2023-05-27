@@ -8,9 +8,7 @@ void reverseWords(string s) {
       revstr=temp+" "+revstr;
       temp="";
  
-    }
-    else
-    {
+    } else {
       temp=temp+s[i];
     }
   }
