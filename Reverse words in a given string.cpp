@@ -3,8 +3,7 @@ using namespace std;
 void reverseWords(string s) {
  
   string revstr="",temp="";
-  for(int i=0;i<=s.length();i++)
-  {
+  for(int i=0;i<=s.length();i++) {
     if(s[i]==' ' || i==s.length())
     {
       revstr=temp+" "+revstr;
