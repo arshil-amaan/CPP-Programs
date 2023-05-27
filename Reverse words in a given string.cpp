@@ -14,9 +14,8 @@ void reverseWords(string s) {
     for(int i=0;i<revstr.length()-1;i++)
         cout<<revstr[i];
 }
-int main() 
-{
-    string str = "i like this program very much";
+int main() {
+    string str = "I like this code very much";
     reverseWords(str);
     return 0;
 }
