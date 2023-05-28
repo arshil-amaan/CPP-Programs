@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 	//array traversing methods
 	string mystr = "My String";
- 
+
 	//Traverse Method 1
 	for(int i=0;i<mystr.length();i++)
 	cout<<mystr[i];
