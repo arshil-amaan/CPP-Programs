@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
- 
+
 int main() {
 	cout<<"Enter string you want to reverse"<<endl;
 	string origstr;
