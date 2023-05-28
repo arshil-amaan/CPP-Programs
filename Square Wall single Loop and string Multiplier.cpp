@@ -2,11 +2,10 @@
 using namespace std;
 //square wall using operator *
 string operator * (string a, unsigned int b) {
-    string output = "";
-    while (b--) {
-        output += a;
-    }
-    return output;
+	string output = "";
+	while (b--)
+		output += a;
+	return output;
 }
 int main()
 {
