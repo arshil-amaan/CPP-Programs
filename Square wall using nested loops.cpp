@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 //square wall using nested loops
-int main()
-{
+int main() {
     int s;
     cin>>s;
     //for rows
