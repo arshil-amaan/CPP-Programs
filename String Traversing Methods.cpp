@@ -1,7 +1,7 @@
 #include <iostream>
 #include <typeinfo>
 using namespace std;
- 
+
 int main() {
 	//array traversing methods
 	string mystr = "My String";
