@@ -2,25 +2,21 @@
 using namespace std;
 //volume of cube or cuboid using same function (function overloading)
 //single arguments calculate cube volume
-int volume(int s)
-{
+int volume(int s) {
     return s*s*s;
 }
 //three arguments calculate cuboid volume
-int volume(int l, int b, int h)
-{
+int volume(int l, int b, int h) {
     return l*b*h;
 }
-int main()
-{
+int main() {
     //ask user requirement whether cube or cuboid volume
     int op;
     cout<<"Select 1 for Volume of Cube\n";
     cout<<"Select 2 for Volume of Cuboid\n";
     cin>>op;
     cout<<op<<"\n";
-    switch(op)
-    {
+    switch(op) {
         case 1:
             cout<<"You have chosen Volume of Cube"; 
             int side;
