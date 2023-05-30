@@ -16,27 +16,20 @@ int main() {
 			cout<<arr[i][j]<<" ";
 		cout<<"\n";
 	}
-    //anpther array created
-    int brr[row][col];
-    for(int i=0;i<row;i++)
-    {
-        for(int j=0;j<row;j++)
-        {
-        	//holding transposed elements in new array
-            brr[i][j]=arr[j][i];
-        }
-    }
+	//anpther array created
+	int brr[row][col];
+	for(int i=0;i<row;i++)
+		for(int j=0;j<row;j++)
+			//holding transposed elements in new array
+			brr[i][j]=arr[j][i];
  
  
-    cout<<"\nTranspose:\n";
-    //printing transposed array
-    for(int i=0;i<row;i++)
-    {
-        for(int j=0;j<row;j++)
-        {
-            cout<<brr[i][j]<<" ";
-        }
-        cout<<"\n";
-    }
+	cout<<"\nTranspose:\n";
+	//printing transposed array
+	for(int i=0;i<row;i++) {
+		for(int j=0;j<row;j++)
+			cout<<brr[i][j]<<" ";
+		cout<<"\n";
+	}
 	return 0;
 }
