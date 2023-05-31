@@ -2,9 +2,9 @@
 using namespace std;
 //struct point created
 struct point{
-  int x;
-  int y;
-  int z;
+	int x;
+	int y;
+	int z;
 };
 int main() {
 	//creating array of struct
