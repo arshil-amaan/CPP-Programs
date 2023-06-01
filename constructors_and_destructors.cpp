@@ -27,7 +27,7 @@ public:
 
     // }
 
-    // Point(int a,int b):x(a),y(b){
+    // Point(int a,int b):x(a),y(b) {
 
     // }
 
