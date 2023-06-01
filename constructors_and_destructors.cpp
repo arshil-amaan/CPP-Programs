@@ -17,7 +17,7 @@ public:
     //   y=b;
     // }
 
-    // void print(){
+    // void print() {
     //   cout<<x<<" "<<y<<endl;
     // }
 
