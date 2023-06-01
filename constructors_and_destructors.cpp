@@ -37,7 +37,7 @@ public:
 
     //**********************************************
     // for copy constructor
-    Point(int a,int b){
+    Point(int a,int b) {
         ptr1=new int(a);
         ptr2=new int(b);
     }
