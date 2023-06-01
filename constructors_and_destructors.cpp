@@ -50,7 +50,7 @@ public:
         ptr2= new int(val2);
     }
 
-    void set(int a, int b){
+    void set(int a, int b) {
         *ptr1=a;
         *ptr2=b;
     }
