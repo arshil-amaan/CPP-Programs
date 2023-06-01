@@ -55,7 +55,7 @@ public:
         *ptr2=b;
     }
 
-    void print(){
+    void print() {
         cout<<*ptr1<<" "<<*ptr2<<endl;
     }
 
