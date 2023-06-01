@@ -23,7 +23,7 @@ public:
 
     //**********************************************
     // using Initialiser list (preferred)
-    // Point():x(1),y(1){
+    // Point():x(1),y(1) {
 
     // }
 
