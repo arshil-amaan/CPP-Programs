@@ -12,7 +12,7 @@ public:
     //   y=1;
     // };
 
-    // Point(int a,int b){
+    // Point(int a,int b) {
     //   x=a;
     //   y=b;
     // }
