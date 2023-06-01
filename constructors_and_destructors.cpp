@@ -7,7 +7,7 @@ private:
     int* ptr2;
 public:
     // normal constructor
-    // Point(){
+    // Point() {
     //   x=1;
     //   y=1;
     // };
