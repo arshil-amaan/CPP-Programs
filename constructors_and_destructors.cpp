@@ -64,7 +64,7 @@ public:
     ~Point(){cout<<"Destructed "<<*ptr1<<" "<<*ptr2<<endl;}
 };
 
-int main(){
+int main() {
     // for normal and initialiser list constructor
     // Point p1, p2(5,7);
     // p1.print();
