@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 //how many digits in user provided integer
-int main()
-{
+int main() {
 	int num, digits=0;
 	cin>>num;
 	int n=num;
