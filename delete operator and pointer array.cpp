@@ -25,7 +25,7 @@ int main() {
 
 	//storing sum of all elements in sum
 	for(int i=0;i<n;i++)
-	sum+=arr[i];
+		sum+=arr[i];
 
 	cout<<"\n"<<sum<<"\n";
 
