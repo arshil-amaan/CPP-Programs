@@ -10,7 +10,7 @@ int main()
 	while(n>0) {
 		n=n/10;
 		digits++;
-    }
+	}
 	cout<<num<<" has "<<digits<<" Digits";
 	return 0;
 }
