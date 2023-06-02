@@ -21,7 +21,7 @@ int main() {
 
 	//array elements output  
 	for(int i=0;i<n;i++)
-	cout<<arr[i]<<" ";
+		cout<<arr[i]<<" ";
 
 	//storing sum of all elements in sum
 	for(int i=0;i<n;i++)
