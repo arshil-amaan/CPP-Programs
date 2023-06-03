@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 //factorial
-int factorial(int num)
-{
+int factorial(int num) {
 	//unnecessary global facto created intentionally for static variable understanding
 	int facto;
     // int fact=1;
