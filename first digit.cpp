@@ -8,10 +8,9 @@ int firstDigit(int num) {
 		fd=fd/10;
 	}
 	return fd;
-	}
-int main()
-{
+}
+int main() {
 	int num;
-    cin>>num;
-    cout<<"first digit of "<<num<<" is "<<firstDigit(num);
+	cin>>num;
+	cout<<"first digit of "<<num<<" is "<<firstDigit(num);
 }
