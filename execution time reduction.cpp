@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
+
 int main()
 {
 	//adding these two lines reduces considerable amount of execution time
