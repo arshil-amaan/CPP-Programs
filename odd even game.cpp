@@ -10,11 +10,10 @@ void oddEvenGame(int n) {
 		//if odd ==> Ash win
 		cout<<"Ash Wins this round";
 }
-int main()
-{
-    cout<<"Welcome to the Game"<<endl;
-    cout<<"Enter Any Random Number"<<endl;
-    int num;
+int main() {
+	cout<<"Welcome to the Game"<<endl;
+	cout<<"Enter Any Random Number"<<endl;
+	int num;
 	cin>>num;
 	oddEvenGame(num);
 	return 0;
