@@ -12,15 +12,14 @@ bool isPrime(int n) {
 		return true;
 	}
 }
-int main()
-{
-    int n;
-    cin>>n;
-    //true/false bool outputs
-    // cout<<std::boolalpha<<isPrime(n);
-    if(isPrime(n))
-    cout<<"Yes";
-    else
-    cout<<"No";
+int main() {
+	int n;
+	cin>>n;
+	//true/false bool outputs
+	// cout<<std::boolalpha<<isPrime(n);
+	if(isPrime(n))
+		cout<<"Yes";
+	else
+		cout<<"No";
 	return 0;
 }
