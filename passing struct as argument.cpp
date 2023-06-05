@@ -2,9 +2,9 @@
 using namespace std;
 //struct point created
 struct point{
-  int x;
-  int y;
-  int z;
+	int x;
+	int y;
+	int z;
 };
 //function that takes any struct point type variable as its argument
 //this method creates a copy of whole passed struct, hence inefficient
