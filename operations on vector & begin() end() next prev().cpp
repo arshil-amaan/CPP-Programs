@@ -5,16 +5,16 @@
 using namespace std;
 
 int main() {
-    vector<int> vect = {10, 20, 30, 40, 50, 60};
+	vector<int> vect = {10, 20, 30, 40, 50, 60};
+
+	// whole vector access method 1
+	for(auto h : vect)
+		cout<<h<<" ";
  
-    // whole vector access method 1
-    for(auto h : vect)
-        cout<<h<<" ";
- 
-    cout<<"\n";
-    // whole vector access method 2
-    for(auto i=vect.begin();i<vect.end();i++)
-        cout<<(*i)<<" ";
+	cout<<"\n";
+	// whole vector access method 2
+	for(auto i=vect.begin();i<vect.end();i++)
+		cout<<(*i)<<" ";
  
     cout<<"\n";
     // target only first element of vector using begin()
