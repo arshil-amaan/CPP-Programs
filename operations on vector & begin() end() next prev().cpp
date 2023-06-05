@@ -3,7 +3,7 @@
 //to use vector compiler may ask for #include <vector>
 #include <vector>
 using namespace std;
- 
+
 int main() {
     vector<int> vect = {10, 20, 30, 40, 50, 60};
  
