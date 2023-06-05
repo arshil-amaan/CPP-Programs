@@ -8,12 +8,12 @@ void fun(int x, int y) {
 
 // pass by reference
 void fun(int &x, int &y){
-    cout<<"x value : "<<x<<endl<<"y value : "<<y<<endl;
+	cout<<"x value : "<<x<<endl<<"y value : "<<y<<endl;
 }
 
 // pass by address
 void fun(int *x, int *y){
-    cout<<"x is : "<<*x<<endl<<"y is : "<<*y<<endl;
+	cout<<"x is : "<<*x<<endl<<"y is : "<<*y<<endl;
 }
 
 int main() {
