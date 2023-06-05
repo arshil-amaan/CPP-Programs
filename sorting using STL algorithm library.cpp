@@ -26,8 +26,8 @@ int main() {
 	//binary search function called
 	//(start,end,element)
 	if(binary_search(arr,arr+5,85))
-	cout<<"\nPresent";
+		cout<<"\nPresent";
 	else
-	cout<<"\nNot Present";
+		cout<<"\nNot Present";
 	return 0;
 }
