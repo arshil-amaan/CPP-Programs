@@ -2,8 +2,8 @@
 using namespace std;
 
 // pass by value
-void fun(int x, int y){
-    cout<<"x: "<<x<<"\ny: "<<y<<endl;
+void fun(int x, int y) {
+	cout<<"x: "<<x<<"\ny: "<<y<<endl;
 }
 
 // pass by reference
