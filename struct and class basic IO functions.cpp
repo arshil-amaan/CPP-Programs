@@ -1,22 +1,22 @@
 #include <iostream>
 using namespace std;
- 
+
 //only difference between class and struct is
 //by default struct are public and class are private
 //but we can make them public or private by below commented method
- 
- //created class student
- //class student
- //{  public:
- //    //struct student has int type roll no string name int type rank
- //    int rn;
- //    string name;
- //    int rank;
- //};
- 
- 
+
+//created class student
+//class student
+//{  public:
+//    //struct student has int type roll no string name int type rank
+//    int rn;
+//    string name;
+//    int rank;
+//};
+
+
 //created struct student
- struct student
+struct student
  {
  	//struct student has int type roll no string name int type rank
      int rn;
