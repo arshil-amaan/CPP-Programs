@@ -49,11 +49,11 @@ int main() {
 		cout<<"Same"<<endl;
 	else if (cmp<0)
 		cout<<"Lesser"<<endl;
-    else
-    cout<<"Greater"<<endl;
- 
-    cout<<"mystr3 previously "<<mystr3<<"\nAfter strcpy\n";
-    strcpy(mystr3,"New String");
-    cout<<mystr3<<endl;
+	else
+		cout<<"Greater"<<endl;
+
+	cout<<"mystr3 previously "<<mystr3<<"\nAfter strcpy\n";
+	strcpy(mystr3,"New String");
+	cout<<mystr3<<endl;
 	return 0;
 }
