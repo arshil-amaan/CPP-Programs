@@ -16,30 +16,29 @@ using namespace std;
 
 
 //created struct student
-struct student
- {
- 	//struct student has int type roll no string name int type rank
-     int rn;
-     string name;
-     int rank;
+struct student {
+	//struct student has int type roll no string name int type rank
+	int rn;
+	string name;
+	int rank;
  };
  
 int main() {
-    //created student type variables
-    student abc;
-    student xyz;
- 
-    //data storing in struct method 1
-    abc = {23,"Amar",15};
- 
-    //data storing in struct method 
-    xyz.rn = 25;
-    xyz.name = "Akbar";
- 
-    //print struct data
-    cout<<abc.rn<<" "<<abc.name<<" "<<abc.rank<<endl;
- 
-    //by default garbage values will be stored in each
-    cout<<xyz.rn<<" "<<xyz.name<<" "<<xyz.rank<<endl;
+	//created student type variables
+	student abc;
+	student xyz;
+
+	//data storing in struct method 1
+	abc = {23,"Amar",15};
+
+	//data storing in struct method 
+	xyz.rn = 25;
+	xyz.name = "Akbar";
+
+	//print struct data
+	cout<<abc.rn<<" "<<abc.name<<" "<<abc.rank<<endl;
+
+	//by default garbage values will be stored in each
+	cout<<xyz.rn<<" "<<xyz.name<<" "<<xyz.rank<<endl;
 	return 0;
 }
