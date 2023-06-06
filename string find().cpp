@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
- 
+
 int main() {
 	//string created
     string myString = "Myself Arshil Amaan Ansari";
