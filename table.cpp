@@ -6,8 +6,8 @@ void table(int num) {
 		cout<<num*i<<" ";
 }
 int main() {
-    int num;
-    cin>>num;
-    table(num);
+	int num;
+	cin>>num;
+	table(num);
 	return 0;
 }
