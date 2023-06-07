@@ -13,14 +13,13 @@ dttp arrMax(dttp arr[], int n) {
 		for(int i=0;i<n;i++)
 			if(arr[i]>res)
 				res=arr[i];
-	    cout<<"Max in arr is = ";
-	    return res;
-	}
-	else
+		cout<<"Max in arr is = ";
+		return res;
+	} else
 		cout<<"Limit Exceeded";
 	return 0;
 }
- 
+
 int main() {
     int in1,in2;
     float fl1,fl2;
