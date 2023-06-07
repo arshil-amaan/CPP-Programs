@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
+
 template <typename var>
 var myMax(var a, var b)
 {
