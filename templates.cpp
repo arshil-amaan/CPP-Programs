@@ -35,43 +35,43 @@ Arithematic<T>::~Arithematic(){cout<<"Destructor Called\n";}
 
 template <class T>
 T Arithematic<T>::add() {
-  return a+b;
+	return a+b;
 }
 
 template <class T>
 T Arithematic<T>::sub() {
-  return a-b;
+	return a-b;
 }
 
 template <class T>
 void Arithematic<T>::seta(T x){
-  a=x;
+	a=x;
 }
 
 template <class T>
 void Arithematic<T>::setb(T y){
-  b=y;
+	b=y;
 }
 template <class T>
 void Arithematic<T>::usrseta(){
-  cout<<"Enter a : ";
-  cin>>a;
+	cout<<"Enter a : ";
+	cin>>a;
 }
 
 template <class T>
 void Arithematic<T>::usrsetb(){
-  cout<<"Enter b : ";
-  cin>>b;
+	cout<<"Enter b : ";
+	cin>>b;
 }
 
 template <class T>
 T Arithematic<T>::geta(){
-  return a;
+	return a;
 }
 
 template <class T>
 T Arithematic<T>::getb(){
-  return b;
+	return b;
 }
 
 int main(){
