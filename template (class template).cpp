@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
+
 // class template created
 template <typename dttp>
 struct point{
