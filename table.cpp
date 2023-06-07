@@ -2,8 +2,8 @@
 using namespace std;
 //table
 void table(int num) {
-    for(int i=1;i<=10;i++)
-        cout<<num*i<<" ";
+	for(int i=1;i<=10;i++)
+		cout<<num*i<<" ";
 }
 int main() {
     int num;
