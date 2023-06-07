@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 //table
-void table(int num)
-{
+void table(int num) {
     for(int i=1;i<=10;i++)
         cout<<num*i<<" ";
 }
