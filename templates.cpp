@@ -19,15 +19,15 @@ class Arithematic{
 };
 
 template <class T>
-Arithematic<T>::Arithematic(){
-  a=0;
-  b=0;
+Arithematic<T>::Arithematic() {
+	a=0;
+	b=0;
 }
 
 template <class T>
-Arithematic<T>::Arithematic(T x, T y){
-  a = x;
-  b = y;
+Arithematic<T>::Arithematic(T x, T y) {
+	a = x;
+	b = y;
 }
 
 template <class T>
