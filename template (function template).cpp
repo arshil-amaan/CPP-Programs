@@ -2,21 +2,17 @@
 using namespace std;
 
 template <typename var>
-var myMax(var a, var b)
-{
+var myMax(var a, var b) {
     return a>b?a:b;
 }
  
 template <typename dttp, int limit>
-dttp arrMax(dttp arr[], int n)
-{
+dttp arrMax(dttp arr[], int n) {
 	dttp res=arr[0];
-	if(n<limit)
-	{
-	    for(int i=0;i<n;i++) {
-	        if(arr[i]>res)
-	        res=arr[i];
-	    }
+	if(n<limit) {
+		for(int i=0;i<n;i++)
+			if(arr[i]>res)
+				res=arr[i];
 	    cout<<"Max in arr is = ";
 	    return res;
 	}
