@@ -2,20 +2,20 @@
 using namespace std;
 template <class T>
 class Arithematic{
-  private:
-    T a,b;
-  public:
-    Arithematic();
-    Arithematic(T x,T y);
-    T add();
-    T sub();
-    T geta();
-    T getb();
-    void seta(T x);
-    void setb(T y);
-    void usrseta();
-    void usrsetb();
-    ~Arithematic();
+	private:
+		T a,b;
+	public:
+		Arithematic();
+		Arithematic(T x,T y);
+		T add();
+		T sub();
+		T geta();
+		T getb();
+		void seta(T x);
+		void setb(T y);
+		void usrseta();
+		void usrsetb();
+		~Arithematic();
 };
 
 template <class T>
